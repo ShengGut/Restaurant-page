@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.header ul {
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.main {
+    display:flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.main > .heading {
+    border: 5px solid red;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.main > .schedule {
+    border: 5px solid red;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.main > .location {
+    border: 5px solid red;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.footer ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
