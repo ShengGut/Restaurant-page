@@ -6,11 +6,11 @@
 #content {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 95vh;
     justify-content: space-between;
 }
 
-.header ul {
+#header ul {
     display:flex;
     text-align: center;
     justify-content: space-evenly;
@@ -42,7 +42,7 @@
     border-radius: 20px;
 }
 
-.footer ul {
+#footer ul {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
